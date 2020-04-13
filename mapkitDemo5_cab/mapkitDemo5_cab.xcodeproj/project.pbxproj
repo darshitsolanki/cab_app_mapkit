@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6B3C190C2444735B00555801 /* SaperateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B3C190B2444735B00555801 /* SaperateViewController.swift */; };
 		CBA2C46B24238CB700DF0672 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBA2C46A24238CB700DF0672 /* AppDelegate.swift */; };
 		CBA2C46D24238CB700DF0672 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBA2C46C24238CB700DF0672 /* SceneDelegate.swift */; };
 		CBA2C46F24238CB700DF0672 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBA2C46E24238CB700DF0672 /* ViewController.swift */; };
@@ -38,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6B3C190B2444735B00555801 /* SaperateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaperateViewController.swift; sourceTree = "<group>"; };
 		CBA2C46724238CB700DF0672 /* mapkitDemo5_cab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mapkitDemo5_cab.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBA2C46A24238CB700DF0672 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CBA2C46C24238CB700DF0672 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -112,6 +114,7 @@
 				CBA2C49D2423966F00DF0672 /* TableViewCell.swift */,
 				CBA2C49C2423966E00DF0672 /* TableViewCell.xib */,
 				CBA2C47024238CB700DF0672 /* Main.storyboard */,
+				6B3C190B2444735B00555801 /* SaperateViewController.swift */,
 				CBA2C47324238CBE00DF0672 /* Assets.xcassets */,
 				CBA2C47524238CBE00DF0672 /* LaunchScreen.storyboard */,
 				CBA2C47824238CBE00DF0672 /* Info.plist */,
@@ -272,6 +275,7 @@
 				CBA2C49F2423966F00DF0672 /* TableViewCell.swift in Sources */,
 				CBA2C46F24238CB700DF0672 /* ViewController.swift in Sources */,
 				CBA2C46B24238CB700DF0672 /* AppDelegate.swift in Sources */,
+				6B3C190C2444735B00555801 /* SaperateViewController.swift in Sources */,
 				CBA2C49B242394A300DF0672 /* SearchViewController.swift in Sources */,
 				CBA2C46D24238CB700DF0672 /* SceneDelegate.swift in Sources */,
 			);
