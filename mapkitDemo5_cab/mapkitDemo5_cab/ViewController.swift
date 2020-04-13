@@ -10,7 +10,7 @@ import UIKit
 import MapKit
 
 class ViewController: UIViewController {
-    var array = [1,2,3,4,5]
+    var array = [Int]()
     @IBOutlet weak var mapView: MKMapView!
     var coordinate1 = CLLocationCoordinate2D(latitude: 23.0335702, longitude: 72.5557826)
     var coordinate2 = CLLocationCoordinate2D(latitude: 23.0335702, longitude: 72.5557826)
@@ -30,9 +30,12 @@ class ViewController: UIViewController {
         geoCoder = CLGeocoder()
         mapView.delegate = self
         mapView.showsUserLocation = true
-
         mapView.region = viewRegion
-        
+        randomNumbers()
+    }
+    
+    func randomNumbers() {
+        array =  (0..<100).map { _ in .random(in: 1...1000) }
     }
     
     @IBAction func textField1_EndEditing(_ sender: UITextField) {
