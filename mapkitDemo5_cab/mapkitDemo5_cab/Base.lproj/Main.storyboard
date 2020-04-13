@@ -161,14 +161,6 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-<<<<<<< HEAD
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EjG-vz-GK5">
-                                <rect key="frame" x="0.0" y="830" width="414" height="34"/>
-                                <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <state key="normal" title="Submit"/>
-                                <connections>
-                                    <action selector="submitform:" destination="hj7-wb-bec" eventType="touchUpInside" id="zCL-wq-BGk"/>
-=======
                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="J2t-hh-CPr">
                                 <rect key="frame" x="181" y="497" width="49" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -179,18 +171,24 @@
                                 <state key="normal" title="SWITCH"/>
                                 <connections>
                                     <action selector="onClick:" destination="hj7-wb-bec" eventType="touchUpInside" id="gqv-ah-R9X"/>
->>>>>>> 50d12cf5135edd16ad74966ac69c735855ac52cb
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0Mx-TU-rfl">
+                                <rect key="frame" x="0.0" y="832" width="414" height="30"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="submitform:" destination="hj7-wb-bec" eventType="touchUpInside" id="nfH-P0-KbU"/>
                                 </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
-                            <constraint firstItem="EjG-vz-GK5" firstAttribute="bottom" secondItem="fn0-0u-mbe" secondAttribute="bottom" constant="2" id="InX-o3-958"/>
+                            <constraint firstItem="fn0-0u-mbe" firstAttribute="trailing" secondItem="0Mx-TU-rfl" secondAttribute="trailing" id="EH8-eW-vbf"/>
+                            <constraint firstItem="0Mx-TU-rfl" firstAttribute="centerX" secondItem="fn0-0u-mbe" secondAttribute="centerX" id="EyJ-X5-edY"/>
                             <constraint firstItem="N36-Jf-shE" firstAttribute="centerY" secondItem="fn0-0u-mbe" secondAttribute="centerY" id="L5x-fA-RuC"/>
-                            <constraint firstItem="fn0-0u-mbe" firstAttribute="trailing" secondItem="EjG-vz-GK5" secondAttribute="trailing" id="LWH-L8-huU"/>
                             <constraint firstItem="N36-Jf-shE" firstAttribute="centerX" secondItem="fn0-0u-mbe" secondAttribute="centerX" id="N25-6Q-w3u"/>
-                            <constraint firstItem="EjG-vz-GK5" firstAttribute="centerX" secondItem="fn0-0u-mbe" secondAttribute="centerX" id="WtT-0b-o6V"/>
-                            <constraint firstItem="EjG-vz-GK5" firstAttribute="leading" secondItem="fn0-0u-mbe" secondAttribute="leading" id="dMY-v6-Zq1"/>
+                            <constraint firstItem="0Mx-TU-rfl" firstAttribute="bottom" secondItem="fn0-0u-mbe" secondAttribute="bottom" id="Yuq-PB-fZ4"/>
+                            <constraint firstItem="0Mx-TU-rfl" firstAttribute="leading" secondItem="fn0-0u-mbe" secondAttribute="leading" id="k6J-9E-rhV"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="fn0-0u-mbe"/>
                     </view>
@@ -201,11 +199,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rmd-i9-Y4L" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-<<<<<<< HEAD
-            <point key="canvasLocation" x="848" y="790"/>
-=======
             <point key="canvasLocation" x="1048" y="790"/>
->>>>>>> 50d12cf5135edd16ad74966ac69c735855ac52cb
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="4nn-oK-Be3">
