@@ -165,6 +165,33 @@
             </objects>
             <point key="canvasLocation" x="137.68115942028987" y="118.52678571428571"/>
         </scene>
+        <!--Demo View Controller-->
+        <scene sceneID="mbj-SQ-zoP">
+            <objects>
+                <viewController storyboardIdentifier="DemoViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="BD1-8u-VQ0" customClass="DemoViewController" customModule="mapkitDemo5_cab" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="4fZ-Qf-MXW">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Demo Screen" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aIc-ZZ-5KE">
+                                <rect key="frame" x="155" y="442.5" width="104" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="aIc-ZZ-5KE" firstAttribute="centerY" secondItem="ibs-9s-xWx" secondAttribute="centerY" id="5Kk-R6-tr9"/>
+                            <constraint firstItem="aIc-ZZ-5KE" firstAttribute="centerX" secondItem="ibs-9s-xWx" secondAttribute="centerX" id="6k2-xP-tub"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="ibs-9s-xWx"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="CGc-Ue-kYg" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="109" y="790"/>
+        </scene>
     </scenes>
     <resources>
         <image name="mappin" catalog="system" width="52" height="64"/>
