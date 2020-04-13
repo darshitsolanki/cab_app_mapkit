@@ -10,20 +10,28 @@ import UIKit
 
 class SaperateViewController: UIViewController {
 
+
     @IBAction func submitform(_ sender: UIButton) {
         
         print("submmitted")
         
     }
+
+    @IBOutlet weak var swich: UISwitch!
+
     @IBOutlet weak var lbl: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        swich.setOn(true, animated: true)
         lbl.text = "Saperate ViewController"
     }
     
 
-  
+    @IBAction func onClick(_ sender: UIButton) {
+        swich.setOn(false, animated: true)
+    }
+    
 
 }

@@ -161,12 +161,25 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+<<<<<<< HEAD
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EjG-vz-GK5">
                                 <rect key="frame" x="0.0" y="830" width="414" height="34"/>
                                 <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Submit"/>
                                 <connections>
                                     <action selector="submitform:" destination="hj7-wb-bec" eventType="touchUpInside" id="zCL-wq-BGk"/>
+=======
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="J2t-hh-CPr">
+                                <rect key="frame" x="181" y="497" width="49" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </switch>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aum-Ch-gbg">
+                                <rect key="frame" x="180" y="587" width="58" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="SWITCH"/>
+                                <connections>
+                                    <action selector="onClick:" destination="hj7-wb-bec" eventType="touchUpInside" id="gqv-ah-R9X"/>
+>>>>>>> 50d12cf5135edd16ad74966ac69c735855ac52cb
                                 </connections>
                             </button>
                         </subviews>
@@ -183,11 +196,16 @@
                     </view>
                     <connections>
                         <outlet property="lbl" destination="N36-Jf-shE" id="lBw-Kv-MZi"/>
+                        <outlet property="swich" destination="J2t-hh-CPr" id="TK6-ZI-lSe"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rmd-i9-Y4L" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
+<<<<<<< HEAD
             <point key="canvasLocation" x="848" y="790"/>
+=======
+            <point key="canvasLocation" x="1048" y="790"/>
+>>>>>>> 50d12cf5135edd16ad74966ac69c735855ac52cb
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="4nn-oK-Be3">

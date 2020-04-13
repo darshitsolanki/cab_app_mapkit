@@ -117,8 +117,13 @@
 				CBA2C49C2423966E00DF0672 /* TableViewCell.xib */,
 				CBA2C47024238CB700DF0672 /* Main.storyboard */,
 
+
 				6B3C190B2444735B00555801 /* SaperateViewController.swift */,
 
+				CBC65AE6244473D20083BE85 /* DemoViewController.swift */,
+
+
+				6B3C190B2444735B00555801 /* SaperateViewController.swift */,
 				CBC65AE6244473D20083BE85 /* DemoViewController.swift */,
 
 				CBA2C47324238CBE00DF0672 /* Assets.xcassets */,
@@ -282,8 +287,13 @@
 				CBA2C46F24238CB700DF0672 /* ViewController.swift in Sources */,
 				CBA2C46B24238CB700DF0672 /* AppDelegate.swift in Sources */,
 
+
 				6B3C190C2444735B00555801 /* SaperateViewController.swift in Sources */,
 
+				CBC65AE7244473D20083BE85 /* DemoViewController.swift in Sources */,
+
+
+				6B3C190C2444735B00555801 /* SaperateViewController.swift in Sources */,
 				CBC65AE7244473D20083BE85 /* DemoViewController.swift in Sources */,
 
 				CBA2C49B242394A300DF0672 /* SearchViewController.swift in Sources */,
