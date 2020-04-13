@@ -10,7 +10,7 @@ import UIKit
 import MapKit
 
 class ViewController: UIViewController {
-
+    var array = [1,2,3,4,5]
     @IBOutlet weak var mapView: MKMapView!
     var coordinate1 = CLLocationCoordinate2D(latitude: 23.0335702, longitude: 72.5557826)
     var coordinate2 = CLLocationCoordinate2D(latitude: 23.0335702, longitude: 72.5557826)
