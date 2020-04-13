@@ -161,6 +161,18 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="J2t-hh-CPr">
+                                <rect key="frame" x="181" y="497" width="49" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </switch>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aum-Ch-gbg">
+                                <rect key="frame" x="180" y="587" width="58" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="SWITCH"/>
+                                <connections>
+                                    <action selector="onClick:" destination="hj7-wb-bec" eventType="touchUpInside" id="gqv-ah-R9X"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
@@ -171,11 +183,12 @@
                     </view>
                     <connections>
                         <outlet property="lbl" destination="N36-Jf-shE" id="lBw-Kv-MZi"/>
+                        <outlet property="swich" destination="J2t-hh-CPr" id="TK6-ZI-lSe"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rmd-i9-Y4L" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="159" y="836"/>
+            <point key="canvasLocation" x="1048" y="790"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="4nn-oK-Be3">
