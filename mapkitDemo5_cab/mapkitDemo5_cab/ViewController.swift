@@ -20,8 +20,11 @@ class ViewController: UIViewController {
     var viewRegion: MKCoordinateRegion!
     var geoCoder: CLGeocoder!
     
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        print(sum_of(array))
         
         textFieldLocation1.becomeFirstResponder()
         
@@ -34,6 +37,15 @@ class ViewController: UIViewController {
         mapView.region = viewRegion
         
     }
+    
+    func sum_of(_ numbers: [Int]) -> Int {
+        var sum = 0
+        for number in numbers {
+            sum = sum + number
+        }
+        return sum
+    }
+    
     
     @IBAction func textField1_EndEditing(_ sender: UITextField) {
         
