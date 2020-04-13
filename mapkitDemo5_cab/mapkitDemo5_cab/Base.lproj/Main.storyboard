@@ -147,6 +147,36 @@
             </objects>
             <point key="canvasLocation" x="1757.9710144927537" y="113.83928571428571"/>
         </scene>
+        <!--SaperateViewController-->
+        <scene sceneID="66h-Jw-9rN">
+            <objects>
+                <viewController title="SaperateViewController" id="hj7-wb-bec" customClass="SaperateViewController" customModule="mapkitDemo5_cab" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="S1r-Qf-jLI">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="N36-Jf-shE">
+                                <rect key="frame" x="186" y="442.5" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="N36-Jf-shE" firstAttribute="centerY" secondItem="fn0-0u-mbe" secondAttribute="centerY" id="L5x-fA-RuC"/>
+                            <constraint firstItem="N36-Jf-shE" firstAttribute="centerX" secondItem="fn0-0u-mbe" secondAttribute="centerX" id="N25-6Q-w3u"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="fn0-0u-mbe"/>
+                    </view>
+                    <connections>
+                        <outlet property="lbl" destination="N36-Jf-shE" id="lBw-Kv-MZi"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rmd-i9-Y4L" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="159" y="836"/>
+        </scene>
         <!--Navigation Controller-->
         <scene sceneID="4nn-oK-Be3">
             <objects>
