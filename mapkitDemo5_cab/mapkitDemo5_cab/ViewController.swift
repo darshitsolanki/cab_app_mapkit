@@ -23,7 +23,8 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        randomNumbers()
+
         print(sum_of(array))
         
         textFieldLocation1.becomeFirstResponder()
@@ -34,7 +35,6 @@ class ViewController: UIViewController {
         mapView.delegate = self
         mapView.showsUserLocation = true
         mapView.region = viewRegion
-        randomNumbers()
     }
     
     func randomNumbers() {
