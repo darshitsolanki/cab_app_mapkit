@@ -13,7 +13,8 @@ class SaperateViewController: UIViewController {
 
     @IBAction func submitform(_ sender: UIButton) {
         
-        print("submmitted")
+        print("submmhuchcheceikefhe")
+        print("submmhuchcheceikefhe")
         
     }
 
