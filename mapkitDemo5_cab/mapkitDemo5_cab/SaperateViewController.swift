@@ -10,6 +10,11 @@ import UIKit
 
 class SaperateViewController: UIViewController {
 
+    @IBAction func submitform(_ sender: UIButton) {
+        
+        print("submmitted")
+        
+    }
     @IBOutlet weak var lbl: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
