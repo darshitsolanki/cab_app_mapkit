@@ -19,6 +19,7 @@
 		CBA2C49B242394A300DF0672 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBA2C49A242394A300DF0672 /* SearchViewController.swift */; };
 		CBA2C49E2423966F00DF0672 /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CBA2C49C2423966E00DF0672 /* TableViewCell.xib */; };
 		CBA2C49F2423966F00DF0672 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBA2C49D2423966F00DF0672 /* TableViewCell.swift */; };
+		CBC65AE7244473D20083BE85 /* DemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBC65AE6244473D20083BE85 /* DemoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 		CBA2C49A242394A300DF0672 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		CBA2C49C2423966E00DF0672 /* TableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
 		CBA2C49D2423966F00DF0672 /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		CBC65AE6244473D20083BE85 /* DemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,7 +116,11 @@
 				CBA2C49D2423966F00DF0672 /* TableViewCell.swift */,
 				CBA2C49C2423966E00DF0672 /* TableViewCell.xib */,
 				CBA2C47024238CB700DF0672 /* Main.storyboard */,
+<<<<<<< HEAD
 				6B3C190B2444735B00555801 /* SaperateViewController.swift */,
+=======
+				CBC65AE6244473D20083BE85 /* DemoViewController.swift */,
+>>>>>>> b5d21d6033ada1317e53844ca6a435c008266243
 				CBA2C47324238CBE00DF0672 /* Assets.xcassets */,
 				CBA2C47524238CBE00DF0672 /* LaunchScreen.storyboard */,
 				CBA2C47824238CBE00DF0672 /* Info.plist */,
@@ -275,7 +281,11 @@
 				CBA2C49F2423966F00DF0672 /* TableViewCell.swift in Sources */,
 				CBA2C46F24238CB700DF0672 /* ViewController.swift in Sources */,
 				CBA2C46B24238CB700DF0672 /* AppDelegate.swift in Sources */,
+<<<<<<< HEAD
 				6B3C190C2444735B00555801 /* SaperateViewController.swift in Sources */,
+=======
+				CBC65AE7244473D20083BE85 /* DemoViewController.swift in Sources */,
+>>>>>>> b5d21d6033ada1317e53844ca6a435c008266243
 				CBA2C49B242394A300DF0672 /* SearchViewController.swift in Sources */,
 				CBA2C46D24238CB700DF0672 /* SceneDelegate.swift in Sources */,
 			);
