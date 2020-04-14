@@ -10,6 +10,7 @@ import UIKit
 
 class DemoViewController: UIViewController {
 
+    @IBOutlet weak var steper: UIStepper!
     override func viewDidLoad() {
         super.viewDidLoad()
 

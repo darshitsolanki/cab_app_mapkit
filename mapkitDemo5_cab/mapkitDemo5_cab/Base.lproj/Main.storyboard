@@ -237,6 +237,10 @@
                                 <rect key="frame" x="184" y="832" width="46" height="30"/>
                                 <state key="normal" title="Button"/>
                             </button>
+                            <stepper opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" maximumValue="100" translatesAutoresizingMaskIntoConstraints="NO" id="b6z-Sd-IHV">
+                                <rect key="frame" x="165" y="199" width="94" height="32"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </stepper>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
@@ -247,6 +251,9 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="ibs-9s-xWx"/>
                     </view>
+                    <connections>
+                        <outlet property="steper" destination="b6z-Sd-IHV" id="pJm-6z-OGs"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="CGc-Ue-kYg" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
